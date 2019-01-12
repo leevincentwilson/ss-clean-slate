@@ -1,0 +1,38 @@
+{
+  "name": "ss-clean-slate",
+  "version": "1.0.41",
+  "description": "A clean slate powered by a CLI",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --ext .js src --config ./config/.eslintrc.js",
+    "start": "webpack-dev-server --config config/webpack.dev.babel.js",
+    "test": "jest"
+  },
+  "bin": {
+    "ss-clean-slate-init": "src/bin/initPackages.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://leevwilson@bitbucket.org/leevwilson/ss-clean-slate.git"
+  },
+  "keywords": [
+    "clean",
+    "slate"
+  ],
+  "author": "Lee Vincent Wilson",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/leevwilson/ss-clean-slate#readme",
+  "dependencies": {
+    "edit-json-file": "^1.2.1",
+    "fs-extra": "^7.0.1",
+    "ss-clean-babel": "^1.0.4",
+    "ss-clean-jest-enzyme": "^1.0.0",
+    "ss-clean-lint": "^1.0.2",
+    "ss-clean-webpack": "^1.0.15"
+  },
+  "devDependencies": {
+    "babel-core": "^7.0.0-bridge.0",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  }
+}
