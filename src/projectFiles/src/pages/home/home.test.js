@@ -8,7 +8,7 @@ configure({ adapter: new Adapter() });
 
 describe('<Home />', () => {
   test('It should render the home page', () => {
-    const wrapper = shallow(<Home/>);
+    const wrapper = shallow(<Home />);
     expect(toJson(wrapper)).toMatchSnapshot();
   });
 });

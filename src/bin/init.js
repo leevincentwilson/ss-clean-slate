@@ -20,6 +20,7 @@ console.log('updating package.jsons scripts');
 const file = editJsonFile(`${workingDir}/package.json`);
 file.set('scripts', {
   start: 'webpack-dev-server --config config/webpack.dev.babel.js',
+  build: 'webpack --config config/webpack.production.babel.js',
   test: 'jest',
   lint: 'eslint --ext .js src --config ./config/.eslintrc.js',
 });

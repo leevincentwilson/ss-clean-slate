@@ -1,3 +1,3 @@
-import config from 'ss-clean-webpack/src/webpack.production.babel';
+const config = require('ss-clean-webpack/src/webpack.production.babel');
 
-export default config;
+module.exports = config;
