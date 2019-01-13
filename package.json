@@ -1,6 +1,6 @@
 {
   "name": "ss-clean-slate",
-  "version": "1.0.45",
+  "version": "1.0.46",
   "description": "A clean slate powered by a CLI",
   "main": "index.js",
   "scripts": {
@@ -33,6 +33,6 @@
     "ss-clean-babel": "^1.0.7",
     "ss-clean-jest-enzyme": "^1.0.0",
     "ss-clean-lint": "^1.0.2",
-    "ss-clean-webpack": "^1.0.18"
+    "ss-clean-webpack": "^1.0.20"
   }
 }
