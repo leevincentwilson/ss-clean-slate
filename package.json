@@ -1,11 +1,12 @@
 {
   "name": "ss-clean-slate",
-  "version": "1.0.47",
+  "version": "1.0.48",
   "description": "A clean slate powered by a CLI",
   "main": "index.js",
   "scripts": {
     "lint": "eslint --ext .js src --config config/.eslintrc.js",
     "start": "webpack-dev-server --config config/webpack.dev.babel.js",
+    "build": "webpack --config config/webpack.production.babel.js",
     "test": "jest"
   },
   "bin": {
@@ -31,7 +32,6 @@
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "ss-clean-babel": "^1.0.7",
-    "ss-clean-jest-enzyme": "^1.0.0",
     "ss-clean-lint": "^1.0.2",
     "ss-clean-webpack": "^1.0.20"
   }
