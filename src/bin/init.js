@@ -21,7 +21,7 @@ const file = editJsonFile(`${workingDir}/package.json`);
 file.set('scripts', {
   start: 'webpack-dev-server --config config/webpack.dev.babel.js',
   build: 'webpack --config config/webpack.production.babel.js',
-  test: 'jest',
+  test: 'jest --config ./jest.config.js',
   lint: 'eslint --ext .js src --config ./config/.eslintrc.js',
 });
 file.save();
