@@ -1,6 +1,6 @@
 {
   "name": "ss-clean-slate",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A clean slate powered by a CLI",
   "main": "index.js",
   "scripts": {
